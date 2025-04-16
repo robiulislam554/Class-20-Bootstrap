@@ -8,40 +8,316 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-body navbar-custom">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="images/IMG_1736.jpg" height="80" width="150" alt=""></a>
-
-          <button class="navbar-toggler" type="button" style="background-color: whitesmoke;" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
+  <nav class="navbar navbar-expand-lg bg-custom">
+    <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo2.png" height="55" width="150">
+          </a>
+          <button class="navbar-toggler" type="button" style="background-color: white;" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse navbar-item-custom" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse custom-nav-item" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" style="color: white;" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" style="color: white;" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" style="color: white;" aria-current="page" href="#">Product</a>
+                <a class="nav-link" href="#" style="color: white;">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" style="color: white;" aria-current="page" href="#">Cart</a>
+                <a class="nav-link" href="#" style="color: white;">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" style="color: white;" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" style="color: white;" href="#">Link</a>
+                <a class="nav-link" href="#" style="color: white;">Services</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn bg-success" type="submit">Search</button>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
           </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active custom-slider">
+          <img src="images/slider/slider1.jpg" class="w-100" alt="..."> 
         </div>
-      </nav>
+        <div class="carousel-item">
+          <img src="images/slider/slider2.jpg" class="w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/slider/slider3.jpg" class="w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <section class="container mt-5">
+    <h3>HOT PRODUCTS</h3>
+    <div class="row mt-3">
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/hot-products/hp-01.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rechargeable Portable Neck Fan</h5>
+          <p class="card-text">
+            890.00tk <del>1090.00tk</del>
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/hot-products/695349569Smart Watch Series 9.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Smart Watch Series 9</h5>
+          <p class="card-text">
+            1450.00tk <del>1650.00tk</del>
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/hot-products/hp-03.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Digital Blood Pressure Monitor</h5>
+          <p class="card-text">
+            1050.00tk <del>1250.00tk</del>
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/hot-products/hp-04.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Laxasfit K10 Ultra Smart Watch With Sim Supported</h5>
+          <p class="card-text">
+            1550.00tk <del>1650.00tk</del>
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/hot-products/hp-05.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">High Quality Handheld Rechargeable USB Portable LED Display Mini Fan P002</h5>
+          <p class="card-text">
+            850.00tk <del>1100.00tk</del>
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+  <section class="container mt-5">
+    <h3>NEW ARRIVAL PRODUCTS</h3>
+    <div class="row mt-3">
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/NEW-ARRIVAL-PRODUCTS/np-01.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">DT900 ULTRA 9 Smart Watch Ultra</h5>
+          <p class="card-text">
+            1600.00 tk
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/NEW-ARRIVAL-PRODUCTS/np-02.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Y80 Ultra Smartwatch With 8 Strap</h5>
+          <p class="card-text">
+            1750.00 tk 
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/NEW-ARRIVAL-PRODUCTS/np-03.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Premium Quality Stitch Cotton Pajama</h5>
+          <p class="card-text">
+            750.00 tk
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/NEW-ARRIVAL-PRODUCTS/np-04.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">20000mah 66W Transparent Power Bank Portable</h5>
+          <p class="card-text">
+            2390.00 tk
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/NEW-ARRIVAL-PRODUCTS/np-05.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">চিয়া সিড ( ২ কেজি )</h5>
+          <p class="card-text">
+            1250.00 tk
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/NEW-ARRIVAL-PRODUCTS/np-06.png" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Folding Mirror Hair Brush</h5>
+          <p class="card-text">
+            530.00 tk
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </section>
+
+  <section class="container mt-5">
+    <h3>REGULAR PRODUCTS</h3>
+
+    <div class="row mt-3">
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/REGULAR-PRODUCTS/rp-01.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">অর্গানিক গাওয়া ঘি (৫০০ গ্রাম)</h5>
+          <p class="card-text">
+            750.00 tk <del>900.00 tk</del>
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/REGULAR-PRODUCTS/rp-02.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">মেডজুল খেজুর</h5>
+          <p class="card-text">
+            880.00 tk <del>1080</del>
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/REGULAR-PRODUCTS/rp-03.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Electric Callus Remover</h5>
+          <p class="card-text">
+            690.00 tk <del>890.00 tk</del>
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/REGULAR-PRODUCTS/rp-04.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nail clippers</h5>
+          <p class="card-text">
+            450.00 tk <del>690.00 tk</del>
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/REGULAR-PRODUCTS/rp-05.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Home Grocery Bag Holder</h5>
+          <p class="card-text">
+            390.00 tk
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+
+      <div class="card col-12 col-sm-12 col-md-3">
+        <img src="images/REGULAR-PRODUCTS/rp-06.jpg" height="180" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">TeethPro™ Foam Mouthwash</h5>
+          <p class="card-text">
+            850.00 tk
+          </p>
+          <a href="#" class="btn btn-primary">Add to Cart</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-custom">
+    <div class="row mt-3">
+
+      <div class="mt-5 col-sm-12 col-md-3">
+        <img src="images/logo2.png" height="100px" alt="">
+
+      </div>
+
+      <div class="mt-2 col-12 col-sm-12 col-md-3">
+        <h3>Company</h3>
+        <a class="ft-custom" href="#">About</a> <br>
+        <a class="ft-custom" href="#">Careers</a> <br>
+        <a class="ft-custom" href="#">Blog</a> <br>
+        <a class="ft-custom" href="#">Vendor</a> <br>
+        <a class="ft-custom" href="#">Dropshiper</a> <br>
+      </div>
+
+      <div class="mt-2 col-12 col-sm-12 col-md-3">
+        <h3>Policy</h3>
+        <a class="ft-custom" href="#">Privacy Policy</a> <br>
+        <a class="ft-custom" href="#">Terms & Conditions</a> <br>
+        <a class="ft-custom" href="#">Refund Policy</a> <br>
+        <a class="ft-custom" href="#">Payment Policy</a> <br>
+      </div>
+
+      <div class="mt-2 col-12 col-sm-12 col-md-3">
+        <h3>Contact Us</h3>
+        <h5>Address:</h5>
+        <p>House#06, Level#03 Road-1/A, Sector#09 <br>
+          Housebuilding, Uttara Dhaka-1230</p>
+        <h5>Email:</h5>
+        <p>banggomartbd@gmail.com</p>
+
+      </div>
+    </div>
+  </section>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<!-- top => top mt-
+bottom =>bottom mb-
+left => start ms-
+right => end me- --> 
