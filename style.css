@@ -30,3 +30,211 @@
     height: 150px;
     width: 150px;
 } */
+
+.custom-products{
+    width: 210px;
+    margin: 8px;
+    height: 450px;
+}
+
+@media screen and (max-width: 1400px) {
+    .custom-products{
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .custom-products{
+        margin: 5px;
+        width: 180px;
+    }
+    .custom-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .custom-products{
+        width: 180px;
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .custom-products{
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .custom-products{
+        width: 170px;
+        margin: 3px;
+        height: 400px;
+
+    }
+    .custom-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .custom-products{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    .custom-products{
+        width: 172px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .custom-products{
+        margin: 3px;
+    }
+}
+
+@media screen and (max-width: 536px) {
+    .custom-products{
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width: 527px) {
+    .custom-products{
+        width: 170px;
+    }
+}
+
+
+@media screen and (max-width: 521px) {
+    .custom-products{
+        width: 164px;
+    }
+    .custom-btn{
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 503px) {
+    .custom-products{
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 491px) {
+    .custom-products{
+        width: 158px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    .custom-products{
+        width: 156px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .custom-products{
+        width: 155px;
+    }
+}
+
+@media screen and (max-width: 476px) {
+    .custom-products{
+        width: 152px;
+    }
+    .custom-btn{
+        padding: 2px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 467px) {
+    .custom-products{
+        width: 150px;
+        height: 350px;
+    }
+    .custom-text{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 461px) {
+    .custom-products{
+        width: 148px;
+    }
+}
+
+@media screen and (max-width: 455px) {
+    .custom-products{
+        width: 146px;
+    }
+}
+
+@media screen and (max-width: 449px) {
+    .custom-products{
+        width: 145px;
+    }
+}
+
+@media screen and (max-width: 446px) {
+    .custom-products{
+        width: 142px;
+    }
+}
+
+@media screen and (max-width: 446px) {
+    .custom-products{
+        width: 142px;
+    }
+}
+
+@media screen and (max-width: 437px) {
+    .custom-products{
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 437px) {
+    .custom-products{
+        width: 140px;
+    }
+}
+@media screen and (max-width: 431px) {
+    .custom-products{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 407px) {
+    .custom-products{
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 387px) {
+    .custom-products{
+        width: 185px;
+    }
+}
+
+@media screen and (max-width: 377px) {
+    .custom-products{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .custom-products{
+        width: 175px;
+    }
+}
+
+@media screen and (max-width: 357px) {
+    .custom-products{
+        width: 170px;
+    }
+}
